@@ -23,6 +23,6 @@ This project is a reboot of Kafdrop 2.x, dragged kicking and screaming into the 
 * **Support for Azure Event Hubs**
 
 # Getting Started
-Entrar na pasta /docker-compose/kafka-kafdrop e executar docker-compose up para iniciar o Kafka.
-
-É possível entrar no localhost:8000 para ver a UI do Kafka com todos os tópicos e dados sendo transmitidos.
+## Kafka:
+Executar docker-compose up na pasta /docker-compose/kafka-kafdrop/ para iniciar o Kafka.
+É possível entrar no localhost:9000 para ver a UI do Kafka com todos os tópicos e dados sendo transmitidos.
