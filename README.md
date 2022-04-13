@@ -32,4 +32,4 @@ Executar docker-compose up na pasta /docker-compose/kafka-kafdrop/ para iniciar 
 - Nest-microservice: Seria como o Python, um microservico que fica ouvindo o Kafka à espera de uma nova entrada na fila;
 
 ### Iniciar o NEST:
-Entrar na pasta do api-gateway/ e nest-microservice/ e executar 'npm run start:dev' para cada um deles.
+Entrar na pasta do api-gateway/ e nest-microservice/ e executar 'npm i' e depois 'npm run start:dev' para cada pasta.
