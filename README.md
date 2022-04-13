@@ -26,3 +26,10 @@ This project is a reboot of Kafdrop 2.x, dragged kicking and screaming into the 
 ## Kafka:
 Executar docker-compose up na pasta /docker-compose/kafka-kafdrop/ para iniciar o Kafka.
 É possível entrar no localhost:9000 para ver a UI do Kafka com todos os tópicos e dados sendo transmitidos.
+
+## NestJS:
+- Api-gateway: Seria como o back-nacional, ele receberia a requisição REST pegaria os dados no banco e enviaria pro Python via Kafka;
+- Nest-microservice: Seria como o Python, um microservico que fica ouvindo o Kafka à espera de uma nova entrada na fila;
+
+### Iniciar o NEST:
+Entrar na pasta do api-gateway/ e nest-microservice/ e executar 'npm run start:dev' para cada um deles.
