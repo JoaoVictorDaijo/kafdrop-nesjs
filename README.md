@@ -23,6 +23,9 @@ This project is a reboot of Kafdrop 2.x, dragged kicking and screaming into the 
 * **Create new topics**
 * **View ACLs**
 * **Support for Azure Event Hubs**
+  
+# Tutorial que me ensinou isso:
+https://youtu.be/JJEKPqSlXvk
 
 # Getting Started
 ## Kafka:
